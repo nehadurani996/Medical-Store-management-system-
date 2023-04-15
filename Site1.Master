@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Medical.Site1" %>
+
+<!DOCTYPE html> <meta charset="utf-8" />  
+        <title></title>     
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">     <asp:ContentPlaceHolder id="head" runat="server" />    
+        <style type="text/css">   
+            .auto-style3 {  
+            width: 2784px;            
+            text-align: center;       
+            font-family: "Bernard MT Condensed";   
+            font-size: 45pt; 
+                 font-style: italic;
+                height: 50px;
+            }     
+                      .auto-style4 {       
+                          width: 72px;        
+                          height: 52px;      
+
+                      }         .auto-style6 {  
+                                              width: 1140px; 
+                                              height: 121px;   
+                                              margin-left: 3px;      
+
+                                          }     
+                                          .auto-style21 {
+                width: 60px;
+                height: 50px;
+            }
+            .auto-style22 {
+                width: 900px;
+                height: 50px;
+            }
+
+            .auto-style26 {
+                margin-left: 148px;
+            }
+
+        </style>
+
+    </head> 
+    <body class="auto-style26">  
+        <link href="master.css" rel="stylesheet" />
+        <form id="form1" runat="server">
+             <div id="menu">
+                        <ul>
+                        <li><a href="Webform1.aspx" >Home</a></li> 
+                        <li><a href="Stock.aspx" runat ="server">Stock</a>
+                            <ul> 
+
+                          <li><a href="addstock.aspx">New Stock</a></li>             
+                         <li><a href="UpdateStock.aspx" >updateStock</a></li>      
+                         <li><a href="deletestock.aspx" >Delete Stock</a></li>   
+                         <li><a href="stockreport.aspx">Reports</a></li>         
+
+                     </ul>
+                        </li>
+                       <li><a href="sell.aspx">Sell</a></li>  
+                        <li><a href="Client.aspx">clients</a>
+                             <ul>
+                        <li><a href="add client.aspx">Add clients</a></li>     
+                        <li><a href="remove client.aspx" >Delete clients</a></li>  
+                        <li><a href="clientReport.aspx" >Reports</a></li> 
+
+ 
+                          </ul>    
+                        </li>
+                        <li><a href="Reports.aspx">Reports</a>
+                            <ul>
+                               <li><a href="userreport.aspx">User Report</a></li> 
+                               <li><a href="ViewComapny.aspx">Company Report</a></li>   
+                               <li><a href="clientreport.aspx">Client </a></li>
+                          </ul> </li>    
+                        <li ><a href="users.aspx">Users </a> 
+                             <ul> 
+                        <li><a href="AddUser.aspx">Add new</a></li>
+                        <li><a href="userreport.aspx">Reports </a>      
+
+                        </li>
+                        <li><a href="DeleteUser.aspx">Delete</a></li>   
+                        
+                        <li><a href="ChangePassword.aspx">Change Password</a></li>        
+
+                    </ul> 
+
+                        </li>
+                            <li><a href="company.aspx">Company</a> 
+                                 <ul>      
+                        <li><a href="AddCompany.aspx">Add company</a></li>       
+                        <li><a href="deleteCompany.aspx">Delete</a></li>  
+                        <li><a href="viewComapny.aspx">View</a></li> 
+ 
+ 
+                        </ul>  
+                            </li>
+                            </ul>
+                        
+           
+
+        </div>
+            <table style="margin-right: auto; margin-top: 0; margin-bottom: 0;" class="auto-style6">     
+                <tr style="width:1100px; ">     <td class="auto-style21">     
+                    <img src="logo.jpg" class="auto-style4" />   
+
+                                                           </td>   
+                    <td class="auto-style3"> <strong>Medical Store Managment System</strong></td> 
+                    
+                    <td style="text-align:right" class="auto-style22">    
+                        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>    
+                        </td> 
+                       </tr></table>   
+                   
+             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" />
+        </form>
+
+    </body> 
+
+</html>
+
+ 
+ 

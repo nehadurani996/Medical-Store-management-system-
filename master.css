@@ -1,0 +1,45 @@
+﻿
+body {
+    background-image: url(medicine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+#menu ul {
+    list-style: none;
+}
+    #menu ul li {
+        background-color: darkgrey;
+        border: 1px darkgrey;
+        width: 140px;
+        height: 38px;
+        text-align:center;
+        line-height: 38px;
+        float: left;
+        position: relative;
+    }
+        #menu ul li a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+            #menu ul li a:hover {
+                background-color: dimgray;
+            }
+    #menu ul ul {
+        position: absolute;
+        display: none;
+    }
+    #menu ul li > ul li {
+        background-color:darkgrey;
+        color: white;
+        border: 1px darkgrey;
+    }
+    #menu ul li:hover > ul {
+        display:block;
+    }
+   

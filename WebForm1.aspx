@@ -1,0 +1,9 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="Medical.WebForm1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <link href="Login.css" rel="stylesheet" />
+
+    <div class="loginbox"> <h2> Login Here</h2>  <asp:Label ID="Label1" runat="server" Text="User Name"  CssClass="c1" ></asp:Label>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="textbox1" ErrorMessage="Text Is  required" ForeColor="Red"></asp:RequiredFieldValidator> <asp:TextBox ID="TextBox1" runat="server" CssClass="t1" PLACEHOLDER="Ënter user name"></asp:TextBox> <asp:Label ID="Label2" runat="server" Text="Password"  CssClass="c2" ></asp:Label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" Text="Text is Required" Display="Dynamic" ControlToValidate="TextBox2" ForeColor="Red"></asp:RequiredFieldValidator> <asp:TextBox ID="TextBox2" runat="server" CssClass="t2" textmode="Password" PLACEHOLDER="Enter Password"></asp:TextBox>         <asp:Button ID="Button1" runat="server" Text="SignUp" CssClass="b1" />         <asp:LinkButton ID="LinkButton1" runat="server" CssClass="l1" Text="Forget Password?" ></asp:LinkButton>   
+</div></asp:Content>
+

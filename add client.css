@@ -1,0 +1,78 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(medicine.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.tab1 {
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    height:580px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5)
+}
+
+h2 {
+    padding: 0px;
+    margin: -10px;
+    text-align: center;
+    color: rgb(255,217,9);
+    height: 50px;
+}
+
+.l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.t1, .t2, .t3, .t4, .t5, .t6, .t7, .b1 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.t1, .t2, .t3, .t4, .t5, .t6, .t7 {
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.b1 {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .b1:hover {
+        background-color: rgb(255,217,9);
+    }
+
+.l1 {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+    .l1:hover {
+        text-decoration: underline;
+    }
+
+::placeholder {
+    color: rgba(255,255,255,.5)
+}
